@@ -20,6 +20,26 @@ h1,h2,h3,h4,h5,h6{
 }
 
 article{
-    width: 50%;
+    width: 90%;
     margin: 100px auto;
+}
+
+@media screen and (max-width: 480px){
+    *{
+        font-size:1.5rem;
+    }
+
+    article{
+        margin: 2em auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 640px){
+    *{
+        font-size:1.2em;
+    }
+
+    article{
+        margin: 2em auto;
+    }
 }
