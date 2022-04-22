@@ -1,6 +1,6 @@
 * {
     font-weight: 300;
-    font-size: larger;
+    font-size: 1.2em;
     background-color: rgb(30, 107, 151);
     color: aliceblue;
 }
@@ -32,7 +32,7 @@ article {
 
 @media screen and (max-width: 480px) {
     * {
-        font-size: 1.5rem;
+        font-size: 1.1em;
     }
 
     article {
