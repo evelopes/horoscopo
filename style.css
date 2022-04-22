@@ -1,11 +1,11 @@
-*{
+* {
     font-weight: 300;
     font-size: larger;
     background-color: rgb(30, 107, 151);
     color: aliceblue;
 }
 
-button{
+button {
     background-color: #4CAF50;
     border: none;
     border-radius: 50px;
@@ -14,33 +14,41 @@ button{
 }
 
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Merriweather', serif;
     font-weight: 700;
 }
 
-article{
-    width: 90%;
+article {
+    width: 70%;
     margin: 100px auto;
     text-align: justify;
 }
 
-@media screen and (max-width: 480px){
-    *{
-        font-size:1.5rem;
+@media screen and (max-width: 480px) {
+    * {
+        font-size: 1.5rem;
     }
 
-    article{
+    article {
+
+        width: 90%;
         margin: 0.5em auto;
     }
 }
 
-@media (min-width: 481px) and (max-width: 640px){
-    *{
-        font-size:1.2em;
+@media (min-width: 481px) and (max-width: 640px) {
+    * {
+        font-size: 1.2em;
     }
 
-    article{
+    article {
+        width: 90%;
         margin: 0.5em auto;
     }
 }
