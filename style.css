@@ -1,0 +1,25 @@
+*{
+    font-weight: 300;
+    font-size: larger;
+    background-color: rgb(30, 107, 151);
+    color: aliceblue;
+}
+
+button{
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    width: 550px;
+    padding: 0.2em;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+article{
+    width: 50%;
+    margin: 100px auto;
+}
