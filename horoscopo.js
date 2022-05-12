@@ -1,7 +1,6 @@
 let signo = 0;
 let sign = 0;
 
-
 var dia = Number(prompt("Que dia você nasceu?"));
 while (dia < 1 || dia > 31) {
   alert("Informe um DIA válido!");
@@ -10,8 +9,6 @@ while (dia < 1 || dia > 31) {
 
 var Mes = prompt("Qual mês você nasceu? ex: janeiro, fevereiro, março....");
 let mes = Mes.toLowerCase();
-
-
 
 switch (mes) {
   case "março":
@@ -104,7 +101,7 @@ switch (mes) {
       sign = 9;
     }
     break;
-  case "Janeiro":
+  case "janeiro":
     if (dia >= 21) {
       signo = "Aquário";
       sign = 11;
@@ -113,7 +110,7 @@ switch (mes) {
       sign = 10;
     }
     break;
-  case "Fevereiro":
+  case "fevereiro":
     if (dia >= 19) {
       signo = "Peixes";
       sign = 12;
