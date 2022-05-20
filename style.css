@@ -1,8 +1,12 @@
 * {
     font-weight: 300;
     font-size: 1.2em;
-    background-color: rgb(133, 192, 226);
     color: rgb(32, 32, 33);
+}
+
+
+#fundo {
+    background-color: rgb(133, 192, 226);
 }
 
 button {
@@ -31,7 +35,7 @@ article {
 }
 
 
-#imagemSigno{
+#imagemSigno {
     width: 100px;
 }
 
