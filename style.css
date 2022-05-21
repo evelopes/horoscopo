@@ -32,6 +32,10 @@ article {
     width: 70%;
     margin: 100px auto;
     text-align: justify;
+    background-image: url(/g1051.png);
+    background-size: 40%;
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 
