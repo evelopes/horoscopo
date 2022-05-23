@@ -1,0 +1,1 @@
+#Site verifica o signo da pessoa e dá as caracteristicas
